@@ -22,7 +22,7 @@ from EV_sim.tkinter_gui.sim_variables import InputSimVariables
 icon_dir = os.path.join(definations.PROJ_DIR, "EV_sim", 'tkinter_gui', 'icon1.ico')
 
 # Settings
-matplotlib.use('TkAgg')
+matplotlib.use('Agg')
 ctk.set_appearance_mode('dark')
 
 class VehicleDynamicsApp(ctk.CTk):
